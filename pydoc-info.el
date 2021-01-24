@@ -4,7 +4,7 @@
 
 ;; Author: Jonathan Waltman <jonathan.waltman@gmail.com>
 ;; Created: 1 Feb 2011
-;; Version: 0.2
+;; Version: 0.3
 ;; Keywords: python, info, docs
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -41,10 +41,11 @@
 ;; Installation:
 ;;
 ;; Before using this package, you may need to download and install the
-;; latest Python Info files:
+;; latest Python Info files, e.g.:
 ;;
-;;     wget https://bitbucket.org/jonwaltman/pydoc-info/downloads/python.info.gz
-;;     gunzip python.info
+;;     wget https://docs.python.org/3/archives/python-3.9.0-docs-texinfo.tar.bz2
+;;     tar xf python-3.9.0-docs-texinfo.tar.bz2
+;;     cd python-3.9.0-docs-texinfo/
 ;;     sudo cp python.info /usr/share/info
 ;;     sudo install-info --info-dir=/usr/share/info python.info
 ;;
