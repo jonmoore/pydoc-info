@@ -69,25 +69,6 @@
 ;;
 ;;     (pydoc-info-add-help '("python" "sphinx"))
 
-;; Notes:
-;;
-;; pydoc-info is designed to work with Info files produced from the
-;; "new" Python documentation (v2.6 and above).  The "new"
-;; documentation is written in ReStructuredText and built using
-;; Sphinx.  The previous Python Info files were generated from the old
-;; documentation written in LaTeX.
-;;
-;; Texinfo support is a recent addition to Sphinx and is currently
-;; limited to the latest development branch.  The Info files
-;; referenced here are not part of the official Python distribution.
-;;
-;; The current `info-lookup' support in "python.el" (circa v24.0) is
-;; based on the older Info files and doesn't work with the newer
-;; versions.
-
-;; Please email bug reports and suggestions to the author, or submit
-;; them at https://bitbucket.org/jonwaltman/pydoc-info/issues
-
 ;;; Code:
 
 ;;;###autoload
